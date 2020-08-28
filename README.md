@@ -1,36 +1,6 @@
-# Creative Portfolios 🌀
-> This project was created with [React](https://reactjs.org/), [Gatsby](https://www.gatsbyjs.org/) and [GraphQL](https://graphql.org/).
-- Contributions are more than welcome. Please see [contribution guide](contributing.md).
-
-![Creative Portfolios](static/cp-screenshot-2.png)
-
-### Portfolios ✨
-- [Danny Garcia](https://danny-garcia.com/)
-- [Diana Ilithya](https://www.ilithya.rocks/)
-- [Bruno Simon](https://bruno-simon.com/)
-- [Lynn Fisher](https://lynnandtonic.com/)
-- [Rogie King](https://rog.ie/)
-- [Shanteli Martin](https://shantellmartin.art/)
-- [Pierre Reimertz](https://www.reimertz.co/)
-- [Nick Jones](http://www.narrowdesign.com/)
-- [Eli Fitch](http://eli.wtf/)
-- [Fabio Ottaviani](http://www.supah.it/)
-- [Julian Garnier](https://juliangarnier.com/)
-- [Louis Hoebregts](https://mamboleoo.be/)
-
-### Install ⚙️
-```
-npm install / yarn install
-```
-
-### Start 🏃
-
-```
-npm run develop / yarn develop
-```
-
-### Build 😷
-
-```
-npm run build / yarn build
-```
+<h1 align="center">Portfolio Website</h1>
+<h2 align="center">Dina Blaszczak | Front-End Developer </h2>
+<p align="center">Live preview: <a href="https://themalni.github.io/portfolio">Portfolio Website</a></p><br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/12295765/43483406-dde55e8a-950b-11e8-8841-d616ee0c0551.jpg" width="550" alt="Portfolio Website">
+</p>
