@@ -7,13 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Front End Developer portfolio website.">
-  <meta name="author" content="Dina Blaszczak">
+  <meta name="author" content="seungmi ">
+
+  <!-- project mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape)"
+    href="css/project_media_small_landscape.css" /><!-- project mobile stylesheet -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
 
   <title>LEE SEUNG MI | Web Developer, Front Engineering</title>
 
   <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" /><!-- Favicon -->
   <link rel="icon" href="images/icon.ico" type="image/x-icon" /><!-- Favicon -->
 
+  <link rel="stylesheet" href="css/font-awesome.min.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/styles.min.css" /><!-- index custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/project-styles.min.css" /><!-- project custom stylesheet -->
+  <link rel="stylesheet" href="css/animations.min.css" /><!-- animations stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css" /><!-- reset for browsers -->
   <link rel="stylesheet" media="screen" href="css/font-awesome.min.css" /><!-- font-awesome icons stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" /><!-- main stylesheet -->
@@ -101,11 +112,13 @@
           <img src="images/dina_large.jpg" srcset="images/dina_small.jpg 800w,
                         images/dina_medium.jpg 1100w,
                         images/dina_large.jpg 1400w" sizes="100vw" class="about__img__mobile" alt="autor portrait" />
-          <p class="about__text__description">Hello, my name is Dina. I am a Front-End Developer located in Poland.</p>
-          <p class="about__text__description">안녕하세요! 타인과의 협업을 가장 중요시 하는 전형적인 ESFJ 이승미입니다.
+          <p class="about__text__description"><strong>아</strong>름다울을 <strong>이</strong>어가라</p>
+          <p class="about__text__description">안녕하세요. 이을 승 아름다울 미 이승미 입니다<br>
+            타인과의 협업을 가장 중요시 하는 전형적인 ESFJ!<br>
             여러번의 클릭으로 많은 사람들에게 편리함을 제공할 수 있는 웹이 좋아요
           그 클릭 속에 숨어있는 개발자들의 노력을 함께 하고 싶습니다 HTML5, CSS를 활용해 전체적인 레이아웃과 데모제작을 
-          하며, AJAX, JAVASCRIPT 등을 통해 동적이고 다양한 사용자 인터페이스를 제공할 수 있습니다.
+          하며, AJAX, JAVASCRIPT 등을 통해 동적이고 다양한 사용자 인터페이스를 제공할 수 있습니다.<br>
+          저의 이름 뜻처럼 아름다움을 이어나갈 수 있는 사람이 되고 싶습니다.
           </p>
           <a href="about-me.html" class="about__btn">Learn more</a>
         </div>
@@ -116,18 +129,89 @@
         </div>
       </div>
     </section>
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <h1 class="portfolio__title">Portfolio<span class="portfolio__title__dot"></span></h1>
-      <h3 class="portfolio__description">제 최근 작품물을 살펴보세요. 웹 뿐만 아니라 node.js를 활용한 앱과
-        클라우드, 자바 등을 활용한 기타프로그램 제작도 하였습니다.
-      </h3>
+  <section id="body-project">
+  <div class="project__container">
+    <h1 class="portfolio__title">Portfolio<span class="portfolio__title__dot"></span></h1>
+      <h3 class="portfolio__description">제 최근 작품물을 살펴보세요. <br> 웹 뿐만 아니라 node.js를 활용한 앱과
+        클라우드, 자바 등을 활용한 기타프로그램도 있습니다. </h3>
       <div class="portfolio__nav__container">
-        <button class="portfolio__nav__btn" data-btn-name="all-btn">All</button>
+        <button class="portfolio__nav__btn" data-btn-name="all-btn">Recent</button>
         <button class="portfolio__nav__btn" data-btn-name="websites-btn">Webites</button>
         <button class="portfolio__nav__btn" data-btn-name="illustrations-btn">Web Apps</button>
         <button class="portfolio__nav__btn" data-btn-name="apps-btn">etc</button>
       </div>
+    <!-- Header -->
+    <header class="project__header">
+      <h2 class="project__title project__title--white">Just A Pair<span
+          class="contact__title__dot title__dot--white"></span></h2>
+      <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+      <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                  images/jap_1200.jpg 1200w,
+                  images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                 (max-width: 700px) 90vw,
+                 (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+      <div class="project__buttons-container">
+        <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+        <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="project__main-container">
+      <div class="project__flex">
+        <!-- Project Description -->
+        <div class="project__flex__item">
+          <h2 class="project__flex__title">Project description</h2>
+          <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+          <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+            website
+            and Firebase for the authentication and data storage.</p>
+        </div>
+        <div class="project__flex__item">
+          <h2 class="project__flex__title">Role</h2>
+          <p class="project__flex__text">Design and development of the project.</p>
+          <h2 class="project__flex__title">Challenge:</h2>
+          <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+            cart
+            and make it fully functional.</p>
+          <h2 class="project__flex__title">Skills</h2>
+          <p class="project__flex__text">
+            <span class="project__flex__skill">Design</span>
+            <span class="project__flex__skill">Web development</span>
+            <span class="project__flex__skill">Responsive</span>
+            <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+            <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+            <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+            <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+            <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+            <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+          </p>
+        </div>
+      </div>
+      <a href="react-reddit-search.html" class="project__main__btn project__main__btn--next">Next<span
+          class="project__main__btn__arrow">&rarr;</span></a>
+    </main>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/inert.min.js"></script><!-- inert js-->
+  <script type="text/javascript" src="js/scripts.min.js"></script><!-- Custom JavaScript -->
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-29336846-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
       <div class="portfolio__items-container">
         <div class="portfolio__item" data-name="website">
           <a href="just-a-pair.html">
