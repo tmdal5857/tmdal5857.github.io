@@ -203,7 +203,6 @@ a {
 /***  Header  ***/
 .header {
   background-image: url(../images/header_background.jpg);
-  background-size: 400px;
   background-position: top left;
   height: 530px;
   text-align: center;
