@@ -71,7 +71,7 @@
         <a href="#about" class="nav-menu__link">About</a>
       </li>
       <li class="nav-menu__list-item">
-        <a href="#portfolio" class="nav-menu__link">Portfolio</a>
+        <a href="#body-project" class="nav-menu__link">Portfolio</a>
       </li>
       <li class="nav-menu__list-item">
         <a href="#contact" class="nav-menu__link">Contact</a>
@@ -95,7 +95,7 @@
   <header id="header" class="header">
     <h1 class="header__title">LEE SEUNG MI</h1>
     <h3 class="header__subtitle">Web Developer, Front Engineering</h3>
-    <a href="#portfolio" class="header__btn">View portfolio</a>
+    <a href="#body-project" class="header__btn">View portfolio</a>
     <div class="header__mouse__container">
       <img class="header__mouse" src="images/mouse_full.svg" alt="mouse">
       <img class="header__mouse__roll" src="images/mouse_roll.svg" alt="mouse">
@@ -129,10 +129,54 @@
         </div>
       </div>
     </section>
+  <section class="portfolio">
+      <div class="portfolio__items-container">
+        <h1 class="portfolio__title">My Favorite Thing<span class="portfolio__title__dot"></span></h1>
+        <div class="portfolio__item1">
+            <img src="images/jap.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
+            <h2 class="portfolio__item__info">Just A Pair</h2>
+            <div class="portfolio__item__hover">
+              <h2 class="portfolio__item__hover__title">co-work<span
+                  class="portfolio__title__dot title__dot--white"></span>
+              </h2>
+              <p class="portfolio__item__hover__description">Online shoe store made with Vue.js</p>
+            </div>
+        </div><!-- END portfolio__item -->
+      <div class="portfolio__item1">
+          <img src="images/react_reddit.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
+          <h2 class="portfolio__item__info">React Reddit Search</h2>
+          <div class="portfolio__item__hover">
+            <h2 class="portfolio__item__hover__title">Web App<span
+                class="portfolio__title__dot title__dot--white"></span>
+            </h2>
+            <p class="portfolio__item__hover__description">Application to search Reddit.</p>
+          </div>
+      </div><!-- END portfolio__item -->
+      <div class="portfolio__item1">
+          <img src="images/hover.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
+          <h2 class="portfolio__item__info">Image Hover Effects</h2>
+          <div class="portfolio__item__hover">
+            <h2 class="portfolio__item__hover__title">Website<span
+                class="portfolio__title__dot title__dot--white"></span></h2>
+            <p class="portfolio__item__hover__description">Collection of image gallery hover effects.</p>
+          </div>
+      </div><!-- END portfolio__item -->
+      <div class="portfolio__item1">
+          <img src="images/career.jpg" class="portfolio__item__thumbnail" alt="career page">
+          <h2 class="portfolio__item__info">Career Page</h2>
+          <div class="portfolio__item__hover">
+            <h2 class="portfolio__item__hover__title">Website<span
+                class="portfolio__title__dot title__dot--white"></span></h2>
+            <p class="portfolio__item__hover__description">Career page made with Vue.js and Firebase.</p>
+          </div>
+      </div><!-- END portfolio__item -->
+    </div>
+  </section>
+
   <section id="body-project">
   <div class="project__container">
     <h1 class="portfolio__title">Portfolio<span class="portfolio__title__dot"></span></h1>
-      <h3 class="portfolio__description">제 최근 작품물을 살펴보세요. <br> 웹 뿐만 아니라 node.js를 활용한 앱과
+      <h3 class="portfolio__description">제 최근 작품물을 살펴보세요. <br> 웹 뿐만 아니라 앱과
         클라우드, 자바 등을 활용한 기타프로그램도 있습니다. </h3>
       <div class="portfolio__nav__container">
         <button class="portfolio__nav__btn" data-btn-name="all-btn">Recent</button>
@@ -140,14 +184,16 @@
         <button class="portfolio__nav__btn" data-btn-name="illustrations-btn">Web Apps</button>
         <button class="portfolio__nav__btn" data-btn-name="apps-btn">etc</button>
       </div>
+  </div>
     <!-- Header -->
+    <div class="portfolio__item" data-name="all">
     <header class="project__header">
-      <h2 class="project__title project__title--white">Just A Pair<span
+      <h2 class="project__title project__title--white">RECORD OF TRAVEL<span
           class="contact__title__dot title__dot--white"></span></h2>
       <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
-      <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
-                  images/jap_1200.jpg 1200w,
-                  images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+      <img src="images/jap_1400.png" srcset="images/jap_800.png 800w,
+                  images/jap_1200.png 1200w,
+                  images/jap_1400.png 1400w" sizes="(max-width: 320px) 90vw,
                  (max-width: 700px) 90vw,
                  (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
       <div class="project__buttons-container">
@@ -187,10 +233,314 @@
           </p>
         </div>
       </div>
-      <a href="react-reddit-search.html" class="project__main__btn project__main__btn--next">Next<span
-          class="project__main__btn__arrow">&rarr;</span></a>
     </main>
-  </div>
+    </div>
+
+    <!-- Header -->
+    <div class="portfolio__item" data-name="website">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">유럽현지인<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
+
+      <!-- Header -->
+    <div class="portfolio__item" data-name="website">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">영화리뷰페이지<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
+
+      <!-- Header -->
+    <div class="portfolio__item" data-name="illustration">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">한글 탐정<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
+
+      <!-- Header -->
+    <div class="portfolio__item" data-name="illustration">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">슬기로운 단국생활<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
+
+      <!-- Header -->
+    <div class="portfolio__item" data-name="app">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">클라우드 프로젝트<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
+
+      <!-- Header -->
+    <div class="portfolio__item" data-name="app">
+      <header class="project__header">
+        <h2 class="project__title project__title--white">도서대여 프로그램<span
+            class="contact__title__dot title__dot--white"></span></h2>
+        <h3 class="project__description">Online shoe store made with Vue.js and Vuex</h3>
+        <img src="images/jap_1400.jpg" srcset="images/jap_800.jpg 800w,
+                    images/jap_1200.jpg 1200w,
+                    images/jap_1400.jpg 1400w" sizes="(max-width: 320px) 90vw,
+                   (max-width: 700px) 90vw,
+                   (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+        <div class="project__buttons-container">
+          <a href="https://just-a-pair.web.app/" target="_blank" class="project__header__btn">Live Demo</a>
+          <a href="https://github.com/Themalni/just-a-pair" target="_blank" class="project__header__btn">GitHub</a>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="project__main-container">
+        <div class="project__flex">
+          <!-- Project Description -->
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Project description</h2>
+            <p class="project__flex__text">E-commerce website to sell and advertise shoes.</p>
+            <p class="project__flex__text">In this project I used Vue.js to make it a SPA, Vuex to manage state of the
+              website
+              and Firebase for the authentication and data storage.</p>
+          </div>
+          <div class="project__flex__item">
+            <h2 class="project__flex__title">Role</h2>
+            <p class="project__flex__text">Design and development of the project.</p>
+            <h2 class="project__flex__title">Challenge:</h2>
+            <p class="project__flex__text">Connect all the parts of the store like product page, size selection, shopping
+              cart
+              and make it fully functional.</p>
+            <h2 class="project__flex__title">Skills</h2>
+            <p class="project__flex__text">
+              <span class="project__flex__skill">Design</span>
+              <span class="project__flex__skill">Web development</span>
+              <span class="project__flex__skill">Responsive</span>
+              <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+              <span class="project__flex__skill project__flex__skill--pink">CSS</span>
+              <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vue.js</span>
+              <span class="project__flex__skill project__flex__skill--pink">Vuex</span>
+              <span class="project__flex__skill project__flex__skill--pink">Firebase</span>
+            </p>
+          </div>
+        </div>
+      </main>
+      </div>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/inert.min.js"></script><!-- inert js-->
@@ -209,218 +559,7 @@
 
   </script>
 </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <div class="portfolio__items-container">
-        <div class="portfolio__item" data-name="website">
-          <a href="just-a-pair.html">
-            <img src="images/jap.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
-            <h2 class="portfolio__item__info">Just A Pair</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Website<span
-                  class="portfolio__title__dot title__dot--white"></span>
-              </h2>
-              <p class="portfolio__item__hover__description">Online shoe store made with Vue.js</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="react-reddit-search.html">
-            <img src="images/react_reddit.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
-            <h2 class="portfolio__item__info">React Reddit Search</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span>
-              </h2>
-              <p class="portfolio__item__hover__description">Application to search Reddit.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="website">
-          <a href="image-hover-effects.html">
-            <img src="images/hover.jpg" class="portfolio__item__thumbnail" alt="image hover effects">
-            <h2 class="portfolio__item__info">Image Hover Effects</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Website<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Collection of image gallery hover effects.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="website">
-          <a href="vue-career-page.html">
-            <img src="images/career.jpg" class="portfolio__item__thumbnail" alt="career page">
-            <h2 class="portfolio__item__info">Career Page</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Website<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Career page made with Vue.js and Firebase.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="fun-facts-app.html">
-            <img src="images/fun_facts.jpg" class="portfolio__item__thumbnail" alt="fun facts">
-            <h2 class="portfolio__item__info">Fun Facts About Coding</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Little app to display coding related facts.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="character-limiter-app.html">
-            <img src="images/character_limiter.jpg" class="portfolio__item__thumbnail" alt="character limiter app">
-            <h2 class="portfolio__item__info">Character Limiter JS</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Mini app to count and limit text characters made with
-                Vanilla JS.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="website">
-          <a href="livet-website-template.html">
-            <img src="images/livet2.jpg" class="portfolio__item__thumbnail" alt="livet template webtite">
-            <h2 class="portfolio__item__info">Livet Template</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Website<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Bootstrap based custom website template.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="pomodoro-clock-app.html">
-            <img src="images/pomodoro.jpg" class="portfolio__item__thumbnail" alt="pomodoro clock">
-            <h2 class="portfolio__item__info">Pomodoro Clock</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">App to increase study and work productivity.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="calculator-js-app.html">
-            <img src="images/calculator.jpg" class="portfolio__item__thumbnail" alt="calculator js app">
-            <h2 class="portfolio__item__info">Calculator JS</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Basic calculator for simple arithmetic operations.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="illustration">
-          <a href="camera-css-illustration.html">
-            <img src="images/camera.jpg" class="portfolio__item__thumbnail" alt="camera CSS illustration">
-            <h2 class="portfolio__item__info">Vintage camera</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">CSS Illustration<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Illustration made with pure CSS.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="random-quote-machine-app.html">
-            <img src="images/quote.jpg" class="portfolio__item__thumbnail" alt="random quote machine app">
-            <h2 class="portfolio__item__info">Random Quote Machine</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">App to display random inspirational quotes.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="app">
-          <a href="wikipedia-viewer-app.html">
-            <img src="images/wiki.jpg" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
-            <h2 class="portfolio__item__info">Wikipedia Viewer</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">Web App<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">App to find and preview entries from Wikipedia.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-        <div class="portfolio__item" data-name="illustration">
-          <a href="owl-css-illustration.html">
-            <img src="images/owl.jpg" class="portfolio__item__thumbnail" alt="owl CSS illustration">
-            <h2 class="portfolio__item__info">Cute Owl</h2>
-            <div class="portfolio__item__hover">
-              <h2 class="portfolio__item__hover__title">CSS Illustration<span
-                  class="portfolio__title__dot title__dot--white"></span></h2>
-              <p class="portfolio__item__hover__description">Illustration made with pure CSS.</p>
-            </div>
-          </a>
-        </div><!-- END portfolio__item -->
-      </div>
-    </section>
-    <!-- Contact -->
-    <section id="contact" class="contact">
-      <div class="contact__envelope">
-        <h1 class="contact__title title--white">Get in touch<span class="contact__title__dot title__dot--white"></span>
-        </h1>
-        <h2 class="contact__description">You can reach me via email or find me on social networks.<br> I would love to
-          hear from you!</h2>
-        <a class="contact__link" href="mailto:dinablaszczak@outlook.com">dinablaszczak@outlook.com</a>
-        <div class="contact__social-btn__container">
-          <a href="https://twitter.com/TheMalni" target="_blank" class="contact__btn__link">
-            <span class="fa fa-twitter fa-2x"></span>
-            <div class="contact__social-btn"></div>
-          </a>
-          <a href="https://codepen.io/themalni" target="_blank" class="contact__btn__link">
-            <span class="fa fa-codepen fa-2x contact__fa-btn"></span>
-            <div class="contact__social-btn"></div>
-          </a>
-          <a href="https://github.com/Themalni" target="_blank" class="contact__btn__link">
-            <span class="fa fa-github fa-2x contact__fa-btn"></span>
-            <div class="contact__social-btn"></div>
-          </a>
-          <a href="https://youtube.com/user/TheMalni" target="_blank" class="contact__btn__link">
-            <span class="fa fa-youtube fa-2x contact__fa-btn"></span>
-            <div class="contact__social-btn"></div>
-          </a>
-          <a href="https://www.linkedin.com/in/dina-blaszczak-5b380313a/" target="_blank" class="contact__btn__link">
-            <span class="fa fa-linkedin-square fa-2x contact__fa-btn"></span>
-            <div class="contact__social-btn"></div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer__info__container">
-        <h2 class="footer__copyright">&copy; Dina Blaszczak 2017</h2>
-        <!-- footer navigation -->
-        <ul class="footer-menu__list">
-          <li class="footer-menu__list-item">
-            <a href="#about" class="footer-menu__link">About</a>
-          </li>
-          <li class="footer-menu__list-item">
-            <a href="#portfolio" class="footer-menu__link">Portfolio</a>
-          </li>
-          <li class="footer-menu__list-item">
-            <a href="#contact" class="footer-menu__link">Contact</a>
-          </li>
-        </ul>
-        <!-- footer social buttons -->
-        <div class="footer__social-btn">
-          <a href="https://twitter.com/TheMalni" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
-          <a href="https://codepen.io/themalni" target="_blank"><span class="fa fa-codepen fa-2x"></span></a>
-          <a href="https://github.com/Themalni" target="_blank"><span class="fa fa-github fa-2x"></span></a>
-          <a href="https://youtube.com/user/TheMalni" target="_blank"><span class="fa fa-youtube fa-2x"></span></a>
-          <a href="https://www.linkedin.com/in/dina-blaszczak-5b380313a/" target="_blank"><span
-              class="fa fa-linkedin-square fa-2x"></span></a>
-        </div>
-      </div>
-    </footer>
-  </main>
+</main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!-- jQuery -->
   <script src="js/inert.min.js"></script>
