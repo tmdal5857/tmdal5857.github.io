@@ -276,7 +276,7 @@ a {
           transform: translateX(-50%);
   width: 170px;
   height: 150px;
-  background-color: #B39DDB;
+  background-color:#e6e6fa;
   border-radius: 50%;
 }
 .header__mouse {
@@ -323,7 +323,7 @@ a {
 
 /*** About section ***/
 .about {
-  background-color: #B39DDB;
+  background-color: #e6e6fa;
 }
 .about__info__container {
   display: -webkit-box;
